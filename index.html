@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emedra CerebraScan — St. Dymphna's RMC</title>
+    <meta name="description" content="Emedra CerebraScan operator console" />
+    <script type="module" crossorigin src="/assets/index-CbamKmo7.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CwoOMfbe.css">
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="scene"></canvas>
+
+      <!-- Top bar -->
+      <header id="topbar">
+        <span class="brand">Emedra CerebraScan</span>
+        <span class="site" id="device-site">St. Dymphna's RMC</span>
+      </header>
+
+      <!-- HUD tool tray (populated from /api/device) -->
+      <footer id="toolkit">
+        <span class="toolkit-label">TOOLKIT</span>
+        <div id="tool-tray" class="tool-tray"></div>
+      </footer>
+
+      <!-- Transient status line -->
+      <div id="status" class="status" hidden></div>
+    </div>
+  </body>
+</html>

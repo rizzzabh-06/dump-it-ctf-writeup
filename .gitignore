@@ -1,0 +1,8 @@
+# Never commit authentication material or local browser captures.
+*.token
+*.cookie
+*.session
+.env
+.env.*
+secrets/
+captures/
